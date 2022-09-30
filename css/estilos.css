@@ -48,7 +48,13 @@ header{
     font-size: 75px;
    cursor: pointer;
  }
+ 
+/*Titulo login*/
+.modal_login {
 
+  background:#353b48;
+  color:#ccc;
+}
 
 /*Inicio Carrusel*/
 .container_carrusel{
@@ -113,17 +119,23 @@ header{
   }
 /* Fin Estilo buscador*/
 
-/* Cards*/
+/* Inicio Cards*/
+
+.ver_mas{
+ color:white;
+ text-decoration:none;
+}
 
 .container_cards{
   display: flex;
   flex-wrap: wrap;
-  /*gap: 30px;*/
   justify-content: center;
 }
 
-.botones_vermas{
-  color: #222529;
+.card_serie{
+  width: 15rem;
+  margin: 15px;
+  min-height: 680px;
 }
 
 .card-title{
@@ -131,29 +143,22 @@ header{
   font-weight: bold;
 }
 
-.card_serie{
-  width: 15rem;
-  margin: 15px;
+.card_serie { 
+  transition: all .2s ease-in-out; 
 }
 
-.card_serie { transition: all .2s ease-in-out; }
 .card_serie:hover { 
   transform: scale(1.03); 
   cursor: pointer;
 }
-/* Cards*/
-/*
-.vendidos_contenedor{
-    border: 0;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: center;
-}*/
 
-.mas_vendidos{
-   border: 0px;
+.botones_vermas{
+  color: #222529;
+  margin-top: auto;
+  
 }
+/* Fin Cards*/
+
 
 
 footer{
@@ -170,9 +175,3 @@ footer{
     border:0;
  }
 
-/*Titulo login*/
-.modal_login {
-
-  background:#353b48;
-  color:#ccc;
-}

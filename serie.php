@@ -1,14 +1,7 @@
-<?php session_start();?>
-
-<!-- FUNCIONES -->
-<?php include("funciones.php");?>
-
-<body>
     <!-- Header -->
 
     <div class="container-fluid">
 
-    <?php  ?>
     <?php
     
     include("header.php");
@@ -63,7 +56,6 @@
 
     }
     ?>
-   
 
     <!-- Inicio del pie -->
     <?php //include("footer.php");?>

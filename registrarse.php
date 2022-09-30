@@ -84,24 +84,15 @@
 
 </script>
 
-
 <!-- fin del modal -->
 
-
 <?php 
-
-    /*include("functions.php");*/
 
     if($_POST){
       $usuario = $_POST['usuarioRegistro'];
       $password = $_POST['passwordRegistro'];
       
       $conexion = conectar_db();
-
-      $servername = "localhost";
-      $username = "root";
-      $password = "";
-      $dbname = "proyectodaw"; 
 
       //Checkear conexion
 
