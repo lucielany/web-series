@@ -1,3 +1,4 @@
+
 <!-- Inicio de filtro por género -->
 <div class="d-flex flex-direction: row">
     <h5 class="justify-content-end">Busca por genero</h5>
@@ -37,7 +38,7 @@ foreach ($resultado_consulta as $serie) {
           <div class="card-body d-flex flex-column mb-3">
             <h5 class="card-title p-2"">' . $serie["titulo"] . '</h5>
             <!--<img src="./Estrellas/4.png" width="150px">-->
-            <p class="card-text p-2"">' . substr($serie["descripcion"], 0, 70)  . '...</p>
+            <p class="card-text p-2"">' . $serie["descripcion"]  . '</p>
             <button class="btn btn-warning botones_vermas p-2 "><b>VER MAS</b></button>
           </div>
         </div>

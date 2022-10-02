@@ -1,3 +1,9 @@
+<!--No lee el estilo. // cambiar la url de serie, en vez que se lea la id, que se lea el title-->
+<?php 
+
+include("funciones.php");
+?>
+    
     <!-- Header -->
 
     <div class="container-fluid">
@@ -26,7 +32,7 @@
 
       echo "
           <main>
-            <div style='background-image:url(\"./Posters/$poster\");height:700px;background-position:center;background-repeat:no-repeat;background-size:cover;z-index:5;filter:blur(8px);' class='background-series'></div>
+            <div class='poster' style='background-image:url(\"./Posters/$poster\");height:700px;background-position:center;background-repeat:no-repeat;background-size:cover;z-index:5;filter:blur(8px);' class='background-series'></div>
             <div class='background-black'></div>
             <div class='info-serie'>
               <div class='info-serie-izquierda'>

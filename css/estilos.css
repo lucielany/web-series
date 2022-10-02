@@ -1,107 +1,105 @@
-
-.body_container{
+.body_container {
   max-width: 2140px;
   margin: 20px 0;
   background-color: #000;
 }
 
-header{
-    height: 100px;
-    background-color: rgb(0, 0, 0);
+header {
+  height: 100px;
+  background-color: rgb(0, 0, 0);
 }
 
-.logo{
+.logo {
   width: 88px;
   height: auto;
 }
 
-.menu_superior{
-    margin: 0;
-    display: flex;
-    list-style: none;
+.menu_superior {
+  margin: 0;
+  display: flex;
+  list-style: none;
 }
 
-.menu_sup_item{
-   border: 0;
-   width: 150px;
-   text-align: center;
-   font-size: 20px;
+.menu_sup_item {
+  border: 0;
+  width: 150px;
+  text-align: center;
+  font-size: 20px;
 }
 
-.menu_sup_item:hover{
-   border-bottom: 2px solid #000;
+.menu_sup_item:hover {
+  border-bottom: 2px solid #000;
 }
 
-.menu_sup_item a{
-   text-decoration: none;
-   color: rgb(255, 255, 255);
+.menu_sup_item a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
-.menu_sup_item:hover a{
-  text-decoration: none; 
+.menu_sup_item:hover a {
+  text-decoration: none;
   font-weight: bold;
-   color: #F1C40F;
+  color: #F1C40F;
 }
 
-.login i{
-    text-align: center;
-    font-size: 75px;
-   cursor: pointer;
- }
- 
+.login i {
+  text-align: center;
+  font-size: 75px;
+  cursor: pointer;
+}
+
 /*Titulo login*/
 .modal_login {
 
-  background:#353b48;
-  color:#ccc;
+  background: #353b48;
+  color: #ccc;
 }
 
 /*Inicio Carrusel*/
-.container_carrusel{
+.container_carrusel {}
 
-}
-
-.fondo_main{  
+.fondo_main {
   filter: blur(2px);
 }
+
 /*Fin Carrusel*/
 
 
 /* Inicio Estilo buscador*/
 
-.searchbar{
+.searchbar {
   margin-bottom: auto;
   margin-top: auto;
   height: 60px;
   background-color: #353b48;
   border-radius: 30px;
   padding: 10px;
-  }
+}
 
-  .search_input{
+.search_input {
   color: white;
   border: 0;
   outline: 0;
   background: none;
   width: 0;
-  caret-color:transparent;
+  caret-color: transparent;
   line-height: 40px;
   transition: width 0.4s linear;
-  }
+}
 
-  .searchbar:hover > .search_input{
+.searchbar:hover>.search_input {
   padding: 0 10px;
   width: 450px;
-  caret-color:#F1C40F;
+  caret-color: #F1C40F;
   transition: width 0.4s linear;
-  }
+}
 
-  .searchbar:hover > .search_icon{
+.searchbar:hover>.search_icon {
   background: white;
   color: #F1C40F;
-  }
+}
 
-  .search_icon{
+.search_icon {
   height: 40px;
   width: 40px;
   float: right;
@@ -109,69 +107,83 @@ header{
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color:#F1C40F;
-  text-decoration:none;
-  }
+  color: #F1C40F;
+  text-decoration: none;
+}
 
-  .buscador{
-    float:left;
-    padding: 10px 10px;
-  }
+.buscador {
+  float: left;
+  padding: 10px 10px;
+}
+
 /* Fin Estilo buscador*/
 
 /* Inicio Cards*/
 
-.ver_mas{
- color:white;
- text-decoration:none;
+.ver_mas {
+  color: white;
+  text-decoration: none;
 }
 
-.container_cards{
+.container_cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.card_serie{
+.card_serie {
   width: 15rem;
   margin: 15px;
   min-height: 680px;
+  transition: all .2s ease-in-out;
 }
 
-.card-title{
+.card_serie:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.card-title,
+.card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding: 0.5rem 0.5rem 0 !important;
+}
+
+.card-title {
+  -webkit-line-clamp: 3;
   font-size: 1.5em;
   font-weight: bold;
 }
 
-.card_serie { 
-  transition: all .2s ease-in-out; 
+.card-text {
+  -webkit-line-clamp: 4;
+  line-height: 1.3em;
 }
 
-.card_serie:hover { 
-  transform: scale(1.03); 
-  cursor: pointer;
-}
-
-.botones_vermas{
+.botones_vermas {
   color: #222529;
   margin-top: auto;
-  
+
 }
+
 /* Fin Cards*/
 
+.poster {}
 
 
-footer{
-    height: 150px;
-    border-top: 1px solid #ccc;
-    
+
+footer {
+  height: 150px;
+  border-top: 1px solid #ccc;
+
 }
 
-.redes_container{
-    display: flex;
-    font-size: 40px;
-    justify-content: space-around;
-    align-items: center;
-    border:0;
- }
-
+.redes_container {
+  display: flex;
+  font-size: 40px;
+  justify-content: space-around;
+  align-items: center;
+  border: 0;
+}
