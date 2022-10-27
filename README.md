@@ -2,16 +2,25 @@
 
 Aplicación web de reseñas de series (En proceso)
 
-## _Sección de cada serie_
-![captura de pantalla de la app](./img/captura-de-pantalla1.png)
-## _Buscador_
-![captura de pantalla de la app](./img/captura-de-pantalla2.png)
-## _Filtro por categorías_
-![captura de pantalla de la app](./img/captura-de-pantalla3.png)
-## _Buscador por nombre_
-![captura de pantalla de la app](./img/captura-de-pantalla4.png)
-## _Iniciar Sesión_
-![captura de pantalla de la app](./img/captura-de-pantalla5.png)
-## _Registrarse_
-![captura de pantalla de la app](./img/captura-de-pantalla6.png)
-
+## _Banner y header_
+![captura de pantalla de la app](./img/Agendadehoy.png)
+## _Cards events_
+![captura de pantalla de la app](./img/Agendadehoy2.png)
+## _add events, footer, parner_
+![captura de pantalla de la app](./img/Agendadehoy3.png)
+## _Login_
+![captura de pantalla de la app](./img/Agendadehoy4.png)
+## _signup_
+![captura de pantalla de la app](./img/Agendadehoy5.png)
+## city
+![captura de pantalla de la app](./img/Agendadehoy6.png)
+## _date range_
+![captura de pantalla de la app](./img/Agendadehoy7.png)
+## _theme_
+![captura de pantalla de la app](./img/Agendadehoy8.png)
+## modality
+![captura de pantalla de la app](./img/Agendadehoy9.png)
+## search
+![captura de pantalla de la app](./img/Agendadehoy10.png)
+## add event
+![captura de pantalla de la app](./img/Agendadehoy11.png)
